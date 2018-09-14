@@ -26,7 +26,7 @@ set background=dark
 
 
 
-"" black fg w/white bg
+"" red fg w/black bg
 hi Cursor          guifg=#FF0000    guibg=#000000    ctermfg=red    ctermbg=black    gui=NONE         cterm=NONE
 hi IncSearch       guifg=#FF0000    guibg=#000000    ctermfg=red    ctermbg=black    gui=ITALIC       cterm=NONE
 hi Search          guifg=#FF0000    guibg=#000000    ctermfg=red    ctermbg=black    gui=ITALIC       cterm=NONE
@@ -36,6 +36,10 @@ hi VisualNOS       guifg=#FF0000    guibg=#000000    ctermfg=red    ctermbg=blac
 "" grey fg w/white bg
 hi CursorColumn    guifg=#FF0000    guibg=#000000    ctermfg=red     ctermbg=black    gui=NONE         cterm=NONE
 hi CursorLine      guifg=#FF0000    guibg=#000000    ctermfg=red     ctermbg=black    gui=NONE         cterm=NONE
+
+"" white fg w/black bg
+hi CursorLineNR    guifg=#FFFFFF    guibg=#CC0000    ctermfg=white   ctermbg=black    gui=NONE         cterm=NONE
+hi Visual          guifg=#FFFFFF    guibg=#CC0000    ctermfg=white   ctermbg=black    gui=NONE         cterm=NONE
 
 "" grey fg w/black bg
 hi Comment         guifg=#CC0000    guibg=#210000    ctermfg=red     ctermbg=darkred    gui=ITALIC       cterm=NONE
